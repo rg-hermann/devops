@@ -1,0 +1,28 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "kinesis:SubscribeToShard",
+        "kinesis:DescribeStreamSummary",
+        "kinesis:DescribeStreamConsumer",
+        "kinesis:GetShardIterator",
+        "kinesis:GetRecords",
+        "kinesis:DescribeStream",
+        "kinesis:ListStreamConsumers",
+        "kinesis:ListTagsForStream"
+      ],
+      "Resource": ${jsonencode(kinesis_stream_arn)}
+    },
+    {
+      "Effect": "Allow",
+      "Action": [
+        "kinesis:ListStreams",
+        "kinesis:ListShards",
+        "kinesis:DescribeLimits"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

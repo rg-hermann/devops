@@ -1,0 +1,16 @@
+{
+  "rules": [
+    {
+      "rulePriority": 1,
+      "description": "Keep last ${tagged_retention} images",
+      "selection": {
+        "tagStatus": "any",
+        "countType": "imageCountMoreThan",
+        "countNumber": ${tagged_retention}
+      },
+      "action": {
+        "type": "expire"
+      }
+    }
+  ]
+}
