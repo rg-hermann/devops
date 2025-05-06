@@ -1,0 +1,4 @@
+bucket         = "terraform-state-release"
+key            = "terraform/release/terraform.tfstate"
+region         = "us-east-1"
+workspace_key_prefix = "release"
