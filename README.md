@@ -1,5 +1,7 @@
 # DevOps Portfolio
 
+## Link TCC https://github.com/FaceCare/tcc-cco-2024-face-care
+
 Bem-vindo ao meu portfólio de projetos e automações DevOps! Este repositório reúne soluções que desenvolvi para gerenciar infraestrutura como código (IaC), automações e pipelines CI/CD. O objetivo é demonstrar o uso de tecnologias modernas para criar ambientes escaláveis, seguros e automatizados na nuvem.
 
 ---
